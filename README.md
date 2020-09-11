@@ -1,3 +1,4 @@
+#
 # fukuzo.mydns.jp
 #
 # Readme
