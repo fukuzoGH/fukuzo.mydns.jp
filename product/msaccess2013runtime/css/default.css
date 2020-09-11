@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*----------------------------------------------*/
+
+/*■スマートフォン*/
+@media screen and (min-width:0px){
+	/*0px以上で適用する内容*/
+	body{
+	  font-size : 14px;
+	  width : 99%;
+	  margin-right: auto;
+	  margin-left : auto;
+	}
+	img {
+	  max-width : 95% ;
+	  height : auto ;
+	}
+}
+
+/*■タブレット*/
+@media screen and (min-width:600px) and ( max-width:959px) {
+	/*600～959pxで適用する内容*/
+	body{
+	  font-size : 16px;
+	  width : 98%;
+	  margin-right: auto;
+	  margin-left : auto;
+	}
+	img {
+	  max-width : 100% ;
+	  height : auto ;
+	}
+}
+
+/*■パソコン*/
+@media screen and (min-width:960px){
+	/*960px以上で適用する内容*/
+	body{
+	  font-size : 16px;
+	  width : 960px;
+	  margin-right: auto;
+	  margin-left : auto;
+	}
+}
+
+/*----------------------------------------------*/
+
+body{
+  /*font-family : Verdana, Arial, sans-serif;*/
+  font-family : 'Open Sans', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN', Meiryo, メイリオ, 'YuGothic', '游ゴシック', Helvetica, Arial, sans-serif;
+  color : black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1{
+  font-size : 200%;
+  color: #d4d0c8;/*文字色*/
+  background: #000080;/*背景色*/
+  padding: 0.3em;/*文字まわり（上下左右）の余白*/
+  text-align: center;
+}
+
+h2{
+  font-size : 100%;
+  font-weight : bold;
+  background: #d4d0c8;/*背景色*/
+  padding: 0.5em;/*文字まわり（上下左右）の余白*/
+}
+
+h3{
+  font-size : 100%;
+}
+
+table{
+  font-size : 100%;
+  border-collapse: collapse;
+  border-color: #000000;
+}
+
+.table_container{
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
