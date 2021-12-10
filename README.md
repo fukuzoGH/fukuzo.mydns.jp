@@ -1,0 +1,1 @@
+# fukuzo.mydns.jp
